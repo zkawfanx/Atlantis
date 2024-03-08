@@ -4,7 +4,7 @@
 > Fan Zhang, Shaodi You, Yu Li, Ying Fu  
 > CVPR 2024
 
-![Teaser](assets/teaser.png)
+![Teaser](assets/teaser.jpg)
 
 This repository contains the official implementation and dataset of the CVPR2024 paper "Learning Rain Location Prior for Nighttime Deraining", by Fan Zhang, Shaodi You, Yu Li, Ying Fu.
 
@@ -29,4 +29,4 @@ This repository contains the official implementation and dataset of the CVPR2024
 ![real](assets/real.jpg)
 
 #### Results on Underwater Image Enhancement
-![downstream](assets/downstream.png)
+![downstream](assets/downstream.jpg)
