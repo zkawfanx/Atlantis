@@ -1,0 +1,6 @@
+[submodule "src/MiDaS"]
+	path = src/MiDaS
+	url = https://github.com/isl-org/MiDaS.git
+[submodule "src/diffusers"]
+	path = src/diffusers
+	url = https://github.com/huggingface/diffusers.git
