@@ -2,7 +2,7 @@
 
 > [**Atlantis: Enabling Underwater Depth Estimation with Stable Diffusion**]()  
 > Fan Zhang, Shaodi You, Yu Li, Ying Fu  
-> CVPR 2024
+> CVPR 2024, **Highlight**
 
 ![Teaser](assets/teaser.jpg)
 
@@ -16,7 +16,7 @@ This repository contains the official implementation and dataset of the CVPR2024
 ## Update
 - [ ] Data Release.
 - **2024.04.04:** Code Release.
-- **2024.02.27:** Accepted by CVPR 2024!
+- **2024.02.27:** Accepted by CVPR 2024 as **Highlight**!
 - **2023.12.18:** Repo created.
 
 ## Requirements
@@ -157,15 +157,5 @@ If you find this repo useful, please give us a star and consider citing our pape
 }
 ```
 
-
-
-
-<!-- ## Experimental Results
-#### Results on UIEB
-![depth](assets/depth.png)
-
-#### Results on Sea-Thru
-![real](assets/real.jpg)
-
-#### Results on Underwater Image Enhancement
-![downstream](assets/downstream.jpg) -->
+## Acknowledgement
+Thanks for the great work of [MiDaS](https://github.com/isl-org/MiDaS), [Stable Diffusion](https://github.com/CompVis/stable-diffusion) and [ControlNet](https://github.com/lllyasviel/ControlNet), as well as the awesome libraries of [LAVIS](https://github.com/salesforce/LAVIS) and [Diffusers](https://github.com/huggingface/diffusers). Refer to [iDisc](https://github.com/SysCV/idisc), [NeWCRFs](https://github.com/aliyun/NeWCRFs), [IEBins](https://github.com/ShuweiShao/IEBins), [VA-DepthNet](https://github.com/ykzou9/VADepthNet) for their training code and pretrained models.
