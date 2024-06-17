@@ -15,6 +15,7 @@ This repository contains the official implementation and dataset of the CVPR2024
 
 ## Update
 - [ ] Data Release.
+- **2024.06.17:** [Depth2Underwater](https://github.com/zkawfanx/Atlantis/releases/download/v1.0.0/Depth2Underwater.zip) ControlNet weights available.
 - **2024.04.04:** Code Release.
 - **2024.02.27:** Accepted by CVPR 2024 as **Highlight**!
 - **2023.12.18:** Repo created.
