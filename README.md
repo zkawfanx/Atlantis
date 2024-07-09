@@ -10,8 +10,6 @@ This repository contains the official implementation and dataset of the CVPR2024
 
 [Paper](https://openaccess.thecvf.com/content/CVPR2024/papers/Zhang_Atlantis_Enabling_Underwater_Depth_Estimation_with_Stable_Diffusion_CVPR_2024_paper.pdf) | [Supp](https://openaccess.thecvf.com/content/CVPR2024/supplemental/Zhang_Atlantis_Enabling_Underwater_CVPR_2024_supplemental.pdf) | [Data](https://www.kaggle.com/datasets/zkawfanx/atlantis/data)
 
-> Monocular depth estimation has experienced significant progress on terrestrial images in recent years, largely due to deep learning advancements. However, it remains inadequate for underwater scenes, primarily because of data scarcity. Given the inherent challenges of light attenuation and backscattering in water, acquiring clear underwater images or precise depth information is notably difficult and costly. Consequently, learning-based approaches often rely on synthetic data or turn to unsupervised or self-supervised methods to mitigate this lack of data. Nonetheless, the performance of these methods is often constrained by the domain gap and looser constraints. In this paper, we propose a novel pipeline for generating photorealistic underwater images using accurate terrestrial depth data. This approach facilitates the training of supervised models for underwater depth estimation, effectively reducing the performance disparity between terrestrial and underwater environments. Contrary to prior synthetic datasets that merely apply style transfer to terrestrial images without altering the scene content, our approach uniquely creates vibrant, non-existent underwater scenes by leveraging terrestrial depth data through the innovative Stable Diffusion model. Specifically, we introduce a unique Depth2Underwater ControlNet, trained on specially prepared \{Underwater, Depth, Text\} data triplets, for this generation task. Our newly developed dataset enables terrestrial depth estimation models to achieve considerable improvements, both quantitatively and qualitatively, on unseen underwater images, surpassing their terrestrial pre-trained counterparts. Moreover, the enhanced depth accuracy for underwater scenes also aids underwater image restoration techniques that rely on depth maps, further demonstrating our dataset's utility.
-
 
 ## Update
 - **2024.06.17:** Data Release.
@@ -150,11 +148,12 @@ python inference.py --controlnet_path /path/to/depth2underwater/controlnet --dep
 ## Citation
 If you find this repo useful, please give us a star and consider citing our papers:
 ```bibtex
-@article{zhang2023atlantis,
+@inproceedings{zhang2024atlantis,
   title={Atlantis: Enabling Underwater Depth Estimation with Stable Diffusion},
   author={Zhang, Fan and You, Shaodi and Li, Yu and Fu, Ying},
-  journal={arXiv preprint arXiv:2312.12471},
-  year={2023}
+  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
+  pages={11852--11861},
+  year={2024}
 }
 ```
 
