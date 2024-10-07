@@ -76,7 +76,7 @@ Then you can predict depth with it by simply running:
 cd ../
 python run.py --model_type <model_type> --input_path /path/to/underwater/folder --output_path /path/to/depth/folder --grayscale
 ```
-The ControlNet uses 8-bit grayscale depth for training so remember to modify the `bit` option of `write_depth` function in `run.py`. If you want to visualize depth into colored map, discard the `--grayscale` option and the color mapping used in the paper is `cv2.COLORMAP_PLASMA`.
+**IMPORTANT NOTE**: The ControlNet uses 8-bit grayscale depth for training so remember to modify the `bit` option of `write_depth` function in `run.py`. If you want to visualize depth into colored map, discard the `--grayscale` option and the color mapping used in the paper is `cv2.COLORMAP_PLASMA`.
 
 #### Text
 Install the [LAVIS](https://github.com/salesforce/LAVIS) library for image captioning:
