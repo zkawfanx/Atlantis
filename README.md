@@ -1,8 +1,12 @@
 # Atlantis: Enabling Underwater Depth Estimation with Stable Diffusion 
 
 > [**Atlantis: Enabling Underwater Depth Estimation with Stable Diffusion**]()  
-> Fan Zhang, Shaodi You, Yu Li, Ying Fu  
+> Fan Zhang, Shaodi You, Yu Li, Ying Fu
 > CVPR 2024, **Highlight**
+>
+> [**Atlantis++: Enabling Underwater Depth Estimation with Stable Diffusion and Beyond**]()  
+> Fan Zhang, Shaodi You, Yu Li, Ying Fu
+> IJCV 2026
 
 ![Teaser](assets/teaser.jpg)
 
@@ -12,6 +16,7 @@ This repository contains the official implementation and dataset of the CVPR2024
 
 
 ## Update
+- **2026.05.07:** Atlantis++ has been accepted by IJCV 2026!
 - **2024.06.17:** Data Release.
 - **2024.06.17:** [Depth2Underwater](https://github.com/zkawfanx/Atlantis/releases/download/v1.0.0/Depth2Underwater.zip) ControlNet weights available.
 - **2024.04.04:** Code Release.
@@ -154,6 +159,17 @@ If you find this repo useful, please give us a star and consider citing our pape
   booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
   pages={11852--11861},
   year={2024}
+}
+
+@article{zhang2026atlantis++,
+  title={Atlantis++: Enabling Underwater Depth Estimation with Stable Diffusion and Beyond},
+  author={Zhang, Fan and You, Shaodi and Li, Yu and Fu, Ying},
+  journal={International Journal of Computer Vision},
+  volume={134},
+  number={6},
+  pages={260},
+  year={2026},
+  publisher={Springer}
 }
 ```
 
